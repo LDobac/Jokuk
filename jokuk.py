@@ -44,9 +44,7 @@ while codeCursor < len(code):
             numberStr = code[(codeCursor + readCounter):(codeCursor + readCounter) + 1]
             if numberStr.isdecimal():
                 readingNumStr += numberStr
-            
             readCounter += 1
-
         if onPushBuffer:
             buffer[ptrCursor] = int(readingNumStr)
         else:
@@ -93,7 +91,7 @@ while codeCursor < len(code):
         elif operation == OPER_JMP:
             if not (buffer[ptrCursor] == 0):
                 for i in range(codeCursor, -1, -1):
-                    if code[i] == "^":
+                    if code[i] == OPER_LABLE:
                         codeCursor = i
                         break;
         else:
