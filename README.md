@@ -1,9 +1,8 @@
 # 조국
 >### "언어가 이러니까 나라가 이꼴이지"
-<img src="./silver_bukup.png" width="60%" />  
 
 ## 경) 추석배 불속성 효자톤 2등상 수상 (축
-
+<img src="./silver_bukup.png" width="60%" />  
 
 ## 언어 스펙
 길이가 30000인 버퍼가 존재한다.  
